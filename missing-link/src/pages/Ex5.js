@@ -6,7 +6,9 @@ const Ex5 = () =>{
       <div>
         <h3 className="">Ex5</h3>
         <div className="container">
-          <MyList list={animals} />
+         <ul>
+         {animals.map(a => <li key={ a }>{ a }</li>)}
+         </ul>
         </div>
       </div>
     );
