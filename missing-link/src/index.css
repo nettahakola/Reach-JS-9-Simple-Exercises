@@ -120,6 +120,17 @@ code {
   text-transform: none;
   }
 
+.navbar {
+  background-color: aqua;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 10px 10px;
+}
+
 .square {
   position: absolute;
   background-color: yellow;
