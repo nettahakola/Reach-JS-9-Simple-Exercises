@@ -1,13 +1,17 @@
-
-const Welcome = () =>{
-    return (
+const Welcome = () => {
+  return (
+    <div>
+      <h3>Welcome</h3>
       <div>
-        <h3>Welcome</h3>
-        <div>
-
-        </div>
+        <p>
+          Tässä on tekemäni tehtävät sivun :<br></br>
+          https://coderfiles.dev/blog/reactjs-coding-exercises/
+          <br></br>
+          mukaan tehtynä.
+        </p>
       </div>
-    );
-  }
-  
-  export default Welcome;
+    </div>
+  );
+};
+
+export default Welcome;

@@ -1,5 +1,3 @@
-import MyList from '../components/MyList'
-
 const Ex5 = () =>{
   const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
     return (
